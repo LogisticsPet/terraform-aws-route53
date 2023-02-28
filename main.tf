@@ -5,7 +5,7 @@ module "zones" {
   zones = {
     (var.domain) = {
       comment = "Logistic domain zone"
-      tags    = {
+      tags = {
         type = "public"
       }
     }
