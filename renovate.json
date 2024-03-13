@@ -3,9 +3,5 @@
   "extends": [
     "config:recommended",
     ":gitSignOff"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "commitMessageAction": "Lock file maintenance"
-  }
+  ]
 }
