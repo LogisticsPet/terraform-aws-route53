@@ -6,7 +6,7 @@ Terraform module to provision route53 hosted zone
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 4.67.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.40.0 |
 
 ## Providers
 
