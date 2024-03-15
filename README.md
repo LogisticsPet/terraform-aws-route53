@@ -13,7 +13,6 @@ The following IAM policy needs to be attached to the role that is assumed during
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "Route53",
       "Effect": "Allow",
       "Action": [
         "route53:CreateHostedZone",
@@ -22,7 +21,6 @@ The following IAM policy needs to be attached to the role that is assumed during
       "Resource": "*"
     },
     {
-      "Sid": "Route53Change",
       "Effect": "Allow",
       "Action": [
         "route53:GetChange"
@@ -30,7 +28,6 @@ The following IAM policy needs to be attached to the role that is assumed during
       "Resource": "arn:aws:route53:::change/*"
     },
     {
-      "Sid": "Route53Chang1e",
       "Effect": "Allow",
       "Action": [
         "route53:GetHostedZone",
