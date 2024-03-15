@@ -47,7 +47,7 @@ No providers.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_nameservers"></a> [nameservers](#output\_nameservers) | n/a |
+| <a name="output_nameservers"></a> [nameservers](#output\_nameservers) | List of Nameservers for Route 53 zone. |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
