@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Route53",
+      "Effect": "Allow",
+      "Action": [
+        "route53:CreateHostedZone",
+        "route53:DeleteHostedZone"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "Route53Change",
+      "Effect": "Allow",
+      "Action": [
+        "route53:GetChange"
+      ],
+      "Resource": "arn:aws:route53:::change/*"
+    },
+    {
+      "Sid": "Route53Chang1e",
+      "Effect": "Allow",
+      "Action": [
+        "route53:GetHostedZone",
+        "route53:ListTagsForResource",
+        "route53:ChangeTagsForResource"
+      ],
+      "Resource": "arn:aws:route53:::hostedzone/*"
+    }
+  ]
+}
