@@ -48,6 +48,8 @@ No providers.
 | Name | Description |
 |------|-------------|
 | <a name="output_nameservers"></a> [nameservers](#output\_nameservers) | List of Nameservers for Route 53 zone. |
+| <a name="output_zone_arn"></a> [zone\_arn](#output\_zone\_arn) | Route 53 zone ARN. |
+| <a name="output_zone_id"></a> [zone\_id](#output\_zone\_id) | Route 53 zone ID. |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
