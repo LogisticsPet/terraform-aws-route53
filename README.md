@@ -56,5 +56,4 @@ No providers.
 |------|-------------|------|---------|:--------:|
 | <a name="input_domain"></a> [domain](#input\_domain) | Route 53 domain name | `string` | n/a | yes |
 
-
 <!-- END_TF_DOCS -->
