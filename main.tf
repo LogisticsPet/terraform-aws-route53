@@ -8,6 +8,7 @@ module "zones" {
       tags = {
         type = "public"
       }
+      force_destroy = true
     }
   }
 }
