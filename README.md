@@ -37,7 +37,8 @@ The following IAM policy needs to be attached to the role that is assumed during
         "route53:GetHostedZone",
         "route53:ListTagsForResource",
         "route53:ChangeTagsForResource",
-        "route53:ListResourceRecordSets"
+        "route53:ListResourceRecordSets",
+        "route53:GetDNSSEC"
       ],
       "Resource": "arn:aws:route53:::hostedzone/*"
     }
