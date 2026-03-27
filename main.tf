@@ -4,8 +4,8 @@ module "zones" {
 
   create_zone = true
 
-  name        = var.domain
-  comment     = "Logistic domain zone"
+  name    = var.domain
+  comment = "Logistic domain zone"
 
   force_destroy = true
   tags = {
