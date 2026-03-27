@@ -1,14 +1,14 @@
 module "zones" {
-  source  = "terraform-aws-modules/route53/aws//modules/zones"
-  version = "4.1.0"
+  source  = "terraform-aws-modules/route53/aws"
+  version = "6.4.0"
 
-  zones = {
-    (var.domain) = {
-      comment = "Logistic domain zone"
-      tags = {
-        type = "public"
-      }
-      force_destroy = true
-    }
+  create_zone = true
+
+  name    = var.domain
+  comment = "Logistic domain zone"
+
+  force_destroy = true
+  tags = {
+    type = "public"
   }
 }
