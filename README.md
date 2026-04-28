@@ -51,8 +51,9 @@ The following IAM policy needs to be attached to the role that is assumed during
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.14.8 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.14.9 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | 6.40.0 |
+
 ## Providers
 
 No providers.
